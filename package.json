@@ -8,7 +8,10 @@
     "type": "git",
     "url": "git://github.com/dtinth/ablend.git"
   },
-  "main": "ablend.js",
+  "main": "./lib/ablend",
+  "bin": {
+    "ablend": "./ablend-cli.js"
+  },
   "dependencies": {
     "canvas": "0.12.x",
     "optimist": "0.3.x"
