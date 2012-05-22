@@ -1,0 +1,21 @@
+{
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "name": "ablend",
+  "description": "Combines 2 images (one on white and one on black) to produce a transparent version.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dtinth/ablend",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dtinth/ablend.git"
+  },
+  "main": "ablend.js",
+  "dependencies": {
+    "canvas": "0.12.x",
+    "optimist": "0.3.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
